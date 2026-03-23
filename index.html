@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointnod | Tech Art & Development</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">POINTNOD</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content container">
+                <h1 class="animate-up">Innovation <span class="accent">Tech-Art</span></h1>
+                <p class="subtitle animate-up-delay">Conception digitale d'excellence pour les visionnaires.</p>
+                <div class="cta-group animate-up-large">
+                    <a href="#portfolio" class="btn-secondary">Voir nos travaux</a>
+                    <a href="#contact" class="btn-primary">Parlons de votre projet</a>
+                </div>
+            </div>
+            <div class="hero-bg">
+                <div class="glass-sphere"></div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container slide-up">
+                <h2 class="section-title text-center">Nos <span class="accent">Services</span></h2>
+                <div class="services-grid">
+                    <div class="service-card glass">
+                        <div class="icon">✦</div>
+                        <h3>Tech Art</h3>
+                        <p>Fusion entre esthétique et technologie pour des expériences immersives uniques.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <div class="icon">⚙</div>
+                        <h3>Développement</h3>
+                        <p>Solutions logicielles robustes et évolutives, optimisées pour la performance.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <div class="icon">◈</div>
+                        <h3>Web Design</h3>
+                        <p>Interfaces modernes et épurées avec une attention méticuleuse aux détails.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container slide-up">
+                <h2 class="section-title text-center">Projets <span class="accent">Phare</span></h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item glass">
+                        <img src="portfolio_tech_art_1.png" alt="Innovation Project">
+                        <div class="portfolio-overlay">
+                            <h3>Project Alpha</h3>
+                            <p>Tech Art & Vision</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass">
+                        <img src="portfolio_tech_art_2.png" alt="UI Design Project">
+                        <div class="portfolio-overlay">
+                            <h3>Ethereal UI</h3>
+                            <p>Design Système Premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section id="a-propos" class="about">
+            <div class="container slide-up">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section-title">À propos de <span class="accent">Pointnod</span></h2>
+                        <p>Placé à l'intersection de l'art et de la technologie, Pointnod est un studio de création dédié à la réalisation de visions numériques audacieuses.</p>
+                        <p>Nous croyons que chaque pixel doit avoir une intention et chaque ligne de code doit servir une expérience. Notre équipe multidisciplinaire combine expertise technique et sensibilité artistique pour transformer vos idées en réalité tangible.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Années d'Expérience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projets Réalisés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container slide-up">
+                <div class="contact-card glass">
+                    <h2 class="section-title text-center">Parlons de votre <span class="accent">Projet</span></h2>
+                    <form id="contact-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Nom</label>
+                                <input type="text" id="name" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="votre@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Comment pouvons-nous vous aider ?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>POINTNOD</h3>
+                <p>Repousser les limites du design et du développement.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liens</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>hello@pointnod.com</p>
+                <div class="socials">
+                    <!-- Social icons here -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pointnod. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
